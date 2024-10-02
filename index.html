@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebPage</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Griffy&family=Kristi&family=Lakki+Reddy&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Nerko+One&family=Pacifico&family=Playwrite+CU:wght@100..400&family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animate.style animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+     <!-- Boxicons -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id="container">
+        <!-- NAVBAR -->
+      <nav>
+        <!-- logo -->
+        <figure>
+          <img class="logo" src="./images/logo.png" alt="No images" />
+          <figcaption id="logoname">Pio Pallete</figcaption>
+        </figure>
+
+
+        <!-- Search bar -->
+<div class="search">
+            <input type="text" id="SearchBar" placeholder="Search items..." > 
+            <i id="SeachIcon" class="fa-solid fa-magnifying-glass"></i>
+</div>
+
+        <!-- links -->
+        <!-- when u use href= it will direct to that part while clicking on nav bar -->
+        <ul>
+          <li class="list-items"><a class="links" href="#Home">Home</a></li>
+          <li class="list-items"><a class="links" href="#Shop">Shop</a></li>
+          <li class="list-items"><a class="links" href="#about-us">About US</a></li>
+          <li class="list-items"><a class="links" href="#Gallery">Gallery</a></li>
+          <li class="list-items"><a class="links" href="#custom-orders">Custom Order</a></li>
+          <li class="list-items"><a class="links" href="#footer">Contacts</a></li>
+          <i id="cart" class="fa-solid fa-cart-shopping"></i>
+          <button id="btn" class="list-items">Login/Register</button>
+        </ul>
+      </nav>
+      <!-- HOME  -->
+      <section id="Home">
+       <div class="homeImage">
+        <img
+        id="dreamcatcher"
+        class="group1"
+        src="./images/dreamcatcher.png"
+        alt="No Image"
+      />
+      <img
+        id="brush"
+        class="group1"
+        src="./images/paintbrush.png"
+        alt="No Image"
+      />
+      <img
+      id="pio"
+      class="group1"
+      src="./images/logo.png"
+      alt="No Image"
+    />
+       </div>
+    <div class="homeContent" >
+        <h1  id="caption">"Discover Art, Crafted with Passion"
+        </h1>
+        <h2 id="Subtitle">"Handmade pieces that inspire your spaces."</h2>
+        <button id="shopBtn">Shop Now</button>
+
+    </div>
+      </section >
+      <!-- SHOP -->
+       <section id="Shop">
+        <h1 id="SubHead">Featured Categories Section</h1>
+        <div class="category-grid">
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="category-item">
+                <img id="img" src="https://th.bing.com/th/id/OIP.HRwwrCH_P8yjNs_0eOhvegHaIO?rs=1&pid=ImgDetMain" alt="Paintings" />
+                <button id="imgBtn">Shop</button>
+                <h3>Paintings</h3>
+                <p>Unique hand-painted artworks</p>
+            </div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="category-item">
+                <img id="img" src="https://i.pinimg.com/originals/66/38/cc/6638ccb4449bddb917680482c6fe5837.jpg" alt="DreamCatcher" />
+                <button id="imgBtn">Shop</button>
+                <h3>Dream Catchers</h3>
+                <p>Magical dream catchers</p>
+            </div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="category-item">
+                <img id="img" src="https://i.pinimg.com/originals/ec/f5/28/ecf5282134b0cc2ffd32f98a7a428dd2.jpg" alt="Clay Pot Items" />
+                <button id="imgBtn">Shop</button>
+                <h3>Clay Pot Items</h3>
+                <p>Beautiful handcrafted clay pots</p>
+            </div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="category-item">
+              <img id="img" src="https://th.bing.com/th/id/OIP.Xv52F9MEM8KvtWaD4U9VjwAAAA?rs=1&pid=ImgDetMain"  alt="Jewelleries" />
+              <button id="imgBtn">Shop</button>
+              <h3>Jewelleries</h3>
+              <p>Handmade unique jewellery items</p>
+          </div>
+          <div data-aos="fade-up"
+          data-aos-duration="3000" class="category-item">
+            <img id="img" src="https://th.bing.com/th/id/OIP.0C1SD-M2xz3wjhRyY1KkSwHaHa?rs=1&pid=ImgDetMain"  alt="Custom Art (Pet Products)" />
+            <button id="imgBtn">Shop</button>
+            <h3>Custom Art (Pet Products)</h3>
+            <p>Personalized art for your pets</p>
+        </div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="category-item">
+                <img id="img" src="https://th.bing.com/th/id/OIP.h0SWLeFIqL-EAixVxl7qbQHaGg?rs=1&pid=ImgDetMain" alt="Home Decor" />
+                <button id="imgBtn">Shop</button>
+                <h3>Home Decor</h3>
+                <p>Decor items to enhance your living space</p>
+                </div>
+
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="category-item">
+                <img id="img" src="https://1.bp.blogspot.com/-VDl_y80xi6U/YRKaP7i9_XI/AAAAAAAAPQs/R2GIROsGAxwDIlas2PAnfgeieJutl5dpgCLcBGAsYHQ/s1931/1.jpg" alt="Crochet Items" />
+                <button id="imgBtn">Shop</button>
+                <h3>Crochet Items</h3>
+                <p>Delicately crafted crochet decor and accessories</p>
+            </div>
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="category-item">
+                <img id="img" src="https://th.bing.com/th/id/OIP.Szd33DEn4HQ_OnueZEQkaQHaHa?rs=1&pid=ImgDetMain" alt="Handcrafted Lamps" />
+                <button id="imgBtn">Shop</button>
+                <h3>Handcrafted Lamps</h3>
+                <p>Stylish handcrafted lamps for a cozy atmosphere</p>
+            </div>
+        </div>
+        
+
+       </section>
+<!-- About US -->
+<section id="about-us">
+  <h1  style="padding-top: 100px;" id="SubHead">Why Choose Pio Palette?</h1>
+  <div class="about-columns">
+      <div class="about-column">
+          <i style="margin-bottom: 10px;" class="fa-solid fa-hand-holding-heart"></i> 
+          <h3>Handcrafted with Care</h3><br>
+          <p>Every piece of art is uniquely handcrafted with attention to detail, making each one special and full of personality.</p>
+      </div>
+      <div  class="about-column">
+          <i style="margin-bottom: 10px;"  class="fa-solid fa-leaf"></i>
+          <h3>Eco-Friendly Materials</h3><br>
+          <p>We prioritize sustainability by using eco-friendly materials to minimize our impact on the environment.</p>
+      </div>
+      <div  class="about-column">
+          <i style="margin-bottom: 10px;"  class="fa-solid fa-palette"></i>
+          <h3>Customizable Artworks</h3><br>
+          <p>Our art is customizable, allowing you to request personalized designs that perfectly match your vision and space.</p>
+      </div>
+  </div>
+  <div class="about-paragraph">
+      <p id="about-p">"At Pio Palette, we are passionate about art. Our mission is to bring beauty and creativity to everyday life. Every piece is thoughtfully crafted to resonate with the joy of creation and to inspire art lovers with unique designs that speak to the heart."</p>
+  </div>
+</section>
+<!-- Gallery -->
+<section id="Gallery">
+  <h1 style="padding-top: 5%; margin-bottom: 8%;" id="SubHead">Popular Products</h1>
+  <div class="Gallery-grid">
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" class="Gallery-item">
+      <img id="img" src="https://th.bing.com/th/id/OIP.DTd7-W3cvocQ4Xa0D9PQPAHaHa?rs=1&pid=ImgDetMain" alt="Product 1" /><br>
+      <h3 style="font-size: 1.5rem;">Hand-Painted Artwork</h3>
+      <p class="Gallery-caption">Beautifully crafted, hand-painted canvas art.</p><br>
+      <button class="view-btn">View Product</button>
+    </div>
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" class="Gallery-item">
+      <img id="img" src="https://images.nightcafe.studio/jobs/LRl693tfI1hD6Gkt16Uo/LRl693tfI1hD6Gkt16Uo--1--9blca.jpg?tr=w-1600,c-at_max" alt="Product 2" /><br>
+      <h3 style="font-size: 1.5rem;">Magical Dream Catcher</h3>
+      <p class="Gallery-caption">Catch your dreams with this stunning piece.</p><br>
+      <button class="view-btn">View Product</button>
+    </div>
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" class="Gallery-item">
+      <img id="img" src="https://th.bing.com/th/id/R.5eda662044643d8b8063a3f44435cb73?rik=4F7a5dObB33ixg&riu=http%3a%2f%2fmodpodgerocksblog.com%2fwp-content%2fuploads%2f2016%2f04%2fWashi-Tape-Her-Pot-e1461861328166.jpg&ehk=kT1Ei90MvHPjkpPA%2f%2bhQaj2FZ80%2blNZoPrReJIppEEo%3d&risl=&pid=ImgRaw&r=0" alt="Product 3" /><br>
+      <h3 style="font-size: 1.5rem;">Clay Pot Decor</h3>
+      <p class="Gallery-caption">Handcrafted clay pots to add a rustic touch.</p><br>
+      <button class="view-btn">View Product</button>
+    </div>
+  </div>
+</section>
+
+<!-- Custom Order -->
+
+<section id="custom-orders">
+<div class="custom-order">
+  <div class="custom-details">
+      <h1 id="SubHead">Custom Art Orders</h1>
+      <p>Looking for a unique piece tailored just for you? <br> We offer fully customized artwork to suit your <br> personal taste and style.</p>
+      <p id="custom">Start Customizing your Order...</p>
+  </div>
+    <div data-aos="fade-left"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine" class="custom-img">
+      <img src="./images/custom-removebg-preview.png" alt="Custom Art" />
+      <a href="custom-order-page.html" class="customize-btn">Customize Your Order Here</a>
+    </div>
+</div>
+</section>
+
+<!-- Contact -->
+
+<footer id="footer">
+  <div class="footer-content">
+      <h1 id="SubHead">Contact Us</h1>
+      <div class="contact-details">
+          <p><strong>Email:</strong> info@example.com</p>
+          <p><strong>Phone:</strong> +123 456 7890</p>
+          <p><strong>Address:</strong> 123 Art Street, Creativity City, CA 70510</p>
+      </div>
+      <div class="iconCollection">
+          <div class="icon">
+              <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram brands"></i></a>
+          </div>
+          <div class="icon">
+              <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook brands"></i></a>
+          </div>
+          <div class="icon">
+              <a href="#" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp brands"></i></a>
+          </div>
+      </div>
+      <div class="instagram">
+        <h3>INSTAGRAM</h3><br>
+<div class="grid">
+            <img class="foot-img" src="https://th.bing.com/th/id/OIP.HRwwrCH_P8yjNs_0eOhvegHaIO?rs=1&pid=ImgDetMain" alt="Painting 1">
+            <img class="foot-img" src="https://th.bing.com/th/id/OIP.Xv52F9MEM8KvtWaD4U9VjwAAAA?rs=1&pid=ImgDetMain"  alt="Jewelleries" />
+            <img class="foot-img" src="https://th.bing.com/th/id/OIP.0C1SD-M2xz3wjhRyY1KkSwHaHa?rs=1&pid=ImgDetMain"  alt="Custom Art (Pet Products)" />
+            <img class="foot-img" src="https://i.pinimg.com/originals/66/38/cc/6638ccb4449bddb917680482c6fe5837.jpg" alt="DreamCatcher" />
+            <img class="foot-img" src="https://th.bing.com/th/id/OIP.h0SWLeFIqL-EAixVxl7qbQHaGg?rs=1&pid=ImgDetMain" alt="Home Decor" />
+            <img class="foot-img" src="https://th.bing.com/th/id/OIP.Szd33DEn4HQ_OnueZEQkaQHaHa?rs=1&pid=ImgDetMain" alt="Handcrafted Lamps" />
+</div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+      <br><p>&copy; 2024 Your Company Name. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+    </div>
+  </body>
+
+  <!-- Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
